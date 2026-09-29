@@ -492,7 +492,12 @@ window.SITE = (() => {
   // img: a photo for the tile (falls back to the illustration if missing).
   // representative: true labels AI-generated or stock images so visitors don't take them for Guruji's own ceremonies.
   const GALLERY = [
-    { motif: 'kalashHero', tone: 'sand', span: 'tall', title: a('Satyanarayan Puja', 'सत्यनारायण पूजा'), meta: a('Kothrud · Aug 2026', 'कोथरूड · ऑगस्ट 2026') },
+    {
+      motif: 'kalashHero', tone: 'sand', span: 'tall', title: a('Satyanarayan Puja', 'सत्यनारायण पूजा'), meta: a('Kothrud · Aug 2026', 'कोथरूड · ऑगस्ट 2026'),
+      img: 'assets/gallery/satyanarayan-puja.jpg', representative: true,
+      alt: a('A family sits with folded hands before a garlanded Satyanarayan image while a priest in a saffron pheta performs the puja beside a small havan, with modak, fruit and a rangoli in front.',
+        'हार घातलेल्या सत्यनारायणाच्या प्रतिमेसमोर कुटुंब हात जोडून बसले आहे; केशरी फेटा घातलेले पुरोहित छोट्या होमाजवळ पूजा करत आहेत; समोर मोदक, फळे व रांगोळी.')
+    },
     {
       motif: 'havan', tone: 'clay', title: a('Vastu Shanti havan', 'वास्तुशांतीचा होम'), meta: a('Wakad · Jul 2026', 'वाकड · जुलै 2026'),
       img: 'assets/gallery/vastu-shanti-havan.jpg', representative: true,
