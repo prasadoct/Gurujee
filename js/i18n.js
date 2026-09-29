@@ -104,6 +104,7 @@ window.I18N = {
     'gal.title': 'पुण्यातील घराघरांतून',
     'gal.sub': 'गेल्या काही महिन्यांतील काही क्षण. फोटो फक्त कुटुंबांच्या परवानगीनेच शेअर केले जातात.',
     'gal.illus': 'चित्र: {t}',
+    'gal.rep': 'प्रातिनिधिक छायाचित्र',
 
     'rev.eyebrow': 'कुटुंबांच्या शब्दांत',
     'rev.title': '“प्रत्येक टप्प्याचा अर्थ समजावून सांगितला.”',
@@ -439,6 +440,7 @@ window.I18N = {
     'gal.title': 'From homes across Pune',
     'gal.sub': 'A few moments from the last few months. Photos are shared only with each family’s permission.',
     'gal.illus': 'Illustration: {t}',
+    'gal.rep': 'Representative image',
 
     'rev.eyebrow': 'In families’ words',
     'rev.title': '“He explained every step.”',

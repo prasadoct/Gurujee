@@ -489,9 +489,16 @@ window.SITE = (() => {
     }
   ];
 
+  // img: a photo for the tile (falls back to the illustration if missing).
+  // representative: true labels AI-generated or stock images so visitors don't take them for Guruji's own ceremonies.
   const GALLERY = [
     { motif: 'kalashHero', tone: 'sand', span: 'tall', title: a('Satyanarayan Puja', 'सत्यनारायण पूजा'), meta: a('Kothrud · Aug 2026', 'कोथरूड · ऑगस्ट 2026') },
-    { motif: 'havan', tone: 'clay', title: a('Vastu Shanti havan', 'वास्तुशांतीचा होम'), meta: a('Wakad · Jul 2026', 'वाकड · जुलै 2026') },
+    {
+      motif: 'havan', tone: 'clay', title: a('Vastu Shanti havan', 'वास्तुशांतीचा होम'), meta: a('Wakad · Jul 2026', 'वाकड · जुलै 2026'),
+      img: 'assets/gallery/vastu-shanti-havan.jpg', representative: true,
+      alt: a('A priest offers ghee into a brick havan kund while a young couple sits with folded hands and elders look on, in a flat decorated with marigold torans.',
+        'झेंडूच्या तोरणांनी सजवलेल्या फ्लॅटमध्ये विटांच्या होमकुंडात पुरोहित तूप अर्पण करत आहेत; तरुण जोडपे हात जोडून बसले आहे आणि ज्येष्ठ पाहत आहेत.')
+    },
     { motif: 'modak', tone: 'haldi', title: a('Ganeshotsav, day one', 'गणेशोत्सव, पहिला दिवस'), meta: a('Sadashiv Peth · Sep 2026', 'सदाशिव पेठ · सप्टेंबर 2026') },
     { motif: 'rangoli', tone: 'sage', span: 'wide', title: a('Vastu Shanti, new office', 'वास्तुशांती, नवीन ऑफिस'), meta: a('Hinjewadi · Jun 2026', 'हिंजवडी · जून 2026') },
     { motif: 'palna', tone: 'blush', title: a('Naamkaran for baby Ira', 'बाळ इराचे नामकरण'), meta: a('Aundh · May 2026', 'औंध · मे 2026') },

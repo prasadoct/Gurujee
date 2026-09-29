@@ -193,7 +193,13 @@
     $('#gallery-grid').innerHTML = GALLERY.map(g => `
       <li class="gal ${g.span ? 'gal-' + g.span : ''}">
         <figure>
-          <div class="gal-art tone-${g.tone}" role="img" aria-label="${esc(t('gal.illus', { t: L(g.title) }))}">${Art.motif(g.motif)}</div>
+          ${g.img ? `
+          <div class="gal-art has-img tone-${g.tone}">
+            ${Art.motif(g.motif)}
+            <img src="${g.img}" alt="${esc(L(g.alt) || L(g.title))}" loading="lazy" decoding="async" onerror="this.parentNode.classList.remove('has-img');this.remove()">
+            ${g.representative ? `<span class="gal-tag">${t('gal.rep')}</span>` : ''}
+          </div>` : `
+          <div class="gal-art tone-${g.tone}" role="img" aria-label="${esc(t('gal.illus', { t: L(g.title) }))}">${Art.motif(g.motif)}</div>`}
           <figcaption><strong>${L(g.title)}</strong><span>${L(g.meta)}</span></figcaption>
         </figure>
       </li>`).join('');
