@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="mr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Ramakant Guruji · Vedic Priest in Pune</title>
-  <meta name="description" content="Ramakant Kulkarni (Ramakant Guruji) — 25+ years performing Vedic rituals across Pune and Pimpri-Chinchwad. Satyanarayan Puja, Griha Pravesh, Vastu Shanti, Ganesh Sthapana, Shraddha and more. Book online.">
+  <title>रमाकांत गुरुजी · वैदिक पुरोहित, पुणे</title>
+  <meta name="description" content="रमाकांत कुलकर्णी (रमाकांत गुरुजी) — पुणे व पिंपरी-चिंचवडमध्ये 25+ वर्षे वैदिक विधी. घरी किंवा ऑनलाइन पूजा बुक करा.">
   <meta name="theme-color" content="#F7F2E9">
-  <meta property="og:title" content="Ramakant Guruji · Vedic Priest in Pune">
-  <meta property="og:description" content="25+ years performing Vedic rituals across Pune. See ceremonies, dakshina and book a date online.">
+  <meta property="og:title" content="रमाकांत गुरुजी · Ramakant Guruji">
+  <meta property="og:description" content="पुण्यात 25+ वर्षे वैदिक विधी — घरी किंवा ऑनलाइन. 25+ years performing Vedic rituals across Pune — at home or online.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,36 +15,42 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="skip"></a>
 
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Ramakant Guruji — home">
+      <a class="brand" href="#top" data-i18n-aria="brand.aria">
         <svg class="brand-mark" viewBox="0 0 32 40" aria-hidden="true" focusable="false">
           <path d="M3 38 V16 A13 13 0 0 1 29 16 V38" fill="none" stroke="currentColor" stroke-width="2.2"/>
           <circle cx="16" cy="22" r="2.6" fill="var(--accent)"/>
         </svg>
         <span class="brand-text">
-          <span class="brand-name">Ramakant Guruji</span>
-          <span class="brand-mr" lang="mr">रमाकांत गुरुजी · पुणे</span>
+          <span class="brand-name" data-i18n="brand.name"></span>
+          <span class="brand-sub" data-i18n="brand.sub"></span>
         </span>
       </a>
 
-      <nav class="site-nav" aria-label="Main">
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
-          <span class="nav-toggle-bars" aria-hidden="true"></span>
-          <span class="sr-only">Menu</span>
-        </button>
-        <ul class="nav-list" id="nav-list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#ceremonies">Ceremonies</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#reviews">Reviews</a></li>
-          <li><a href="#area">Service area</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li class="nav-cta-li"><button class="btn btn-primary btn-sm" type="button" data-book>Book a ceremony</button></li>
-        </ul>
-      </nav>
+      <div class="header-tools">
+        <div class="lang-switch" role="group" data-i18n-aria="lang.label">
+          <button type="button" data-lang="mr" lang="mr">मराठी</button>
+          <button type="button" data-lang="en" lang="en">English</button>
+        </div>
+        <nav class="site-nav" data-i18n-aria="nav.menu">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+            <span class="nav-toggle-bars" aria-hidden="true"></span>
+            <span class="sr-only" data-i18n="nav.menu"></span>
+          </button>
+          <ul class="nav-list" id="nav-list">
+            <li><a href="#about" data-i18n="nav.about"></a></li>
+            <li><a href="#ceremonies" data-i18n="nav.ceremonies"></a></li>
+            <li><a href="#online" data-i18n="nav.online"></a></li>
+            <li><a href="#reviews" data-i18n="nav.reviews"></a></li>
+            <li><a href="#faq" data-i18n="nav.faq"></a></li>
+            <li><a href="#contact" data-i18n="nav.contact"></a></li>
+            <li class="nav-cta-li"><button class="btn btn-primary btn-sm" type="button" data-book data-i18n="cta.book"></button></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -53,30 +59,31 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Vedic priest · Pune &amp; Pimpri-Chinchwad</p>
+          <p class="eyebrow" data-i18n="hero.eyebrow"></p>
           <h1 id="hero-title" class="hero-title">
-            Ramakant Guruji
-            <span class="hero-title-mr" lang="mr">रमाकांत कुलकर्णी</span>
+            <span data-i18n="hero.title"></span>
+            <span class="hero-title-mr" lang="mr" data-i18n="hero.titleAlt"></span>
           </h1>
-          <p class="hero-tagline">25+ years performing Vedic rituals across Pune — with full traditional care, and every step explained so your family understands what it’s doing and why.</p>
+          <p class="hero-tagline" data-i18n="hero.tagline"></p>
           <div class="hero-actions">
-            <button class="btn btn-primary btn-lg" type="button" data-book>Book a ceremony</button>
-            <a class="btn btn-ghost btn-lg js-wa" href="#" data-wa-text="Namaskar Guruji, I would like to ask about a puja.">
+            <button class="btn btn-primary btn-lg" type="button" data-book data-i18n="cta.book"></button>
+            <a class="btn btn-ghost btn-lg js-wa" href="#" data-wa-key="wa.general">
               <svg class="i" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z" fill="currentColor"/></svg>
-              WhatsApp Guruji
+              <span data-i18n="cta.wa"></span>
             </a>
           </div>
-          <dl class="stats" aria-label="At a glance">
-            <div class="stat"><dt>Rating from families</dt><dd><span class="stat-num">4.9<span class="star" aria-hidden="true">★</span></span></dd></div>
-            <div class="stat"><dt>Ceremonies performed</dt><dd><span class="stat-num">300+</span></dd></div>
-            <div class="stat"><dt>Years of practice</dt><dd><span class="stat-num">25</span></dd></div>
+          <dl class="stats" data-i18n-aria="hero.stats">
+            <div class="stat"><dt data-i18n="hero.stat1"></dt><dd><span class="stat-num">4.9<span class="star" aria-hidden="true">★</span></span></dd></div>
+            <div class="stat"><dt data-i18n="hero.stat2"></dt><dd><span class="stat-num">300+</span></dd></div>
+            <div class="stat"><dt data-i18n="hero.stat3"></dt><dd><span class="stat-num">25</span></dd></div>
           </dl>
         </div>
         <figure class="hero-art">
           <div class="arch arch-hero" data-art="hero"></div>
           <figcaption class="hero-art-note">
+            <span class="hero-avatar" id="hero-avatar" hidden></span>
             <span class="dot-live" aria-hidden="true"></span>
-            Taking bookings for October – December
+            <span data-i18n="hero.note"></span>
           </figcaption>
         </figure>
       </div>
@@ -86,21 +93,24 @@
     <section class="section about" id="about" aria-labelledby="about-title">
       <div class="container about-grid">
         <div class="about-media">
-          <div class="arch arch-about tone-green" data-art="lotus"></div>
-          <p class="about-quote" lang="mr">“प्रत्येक विधी समजून केला, तर तो मनापासून होतो.”
-            <span lang="en">“A ritual you understand is a ritual you truly perform.”</span>
+          <figure class="portrait">
+            <div class="arch arch-about tone-green" id="portrait" data-art="lotus"></div>
+            <figcaption class="portrait-cap" id="portrait-cap" data-i18n="about.photoCap" hidden></figcaption>
+          </figure>
+          <p class="about-quote"><span lang="mr" data-i18n="about.quote"></span>
+            <span class="about-quote-tr" data-i18n="about.quoteTr"></span>
           </p>
         </div>
         <div class="about-copy">
-          <p class="eyebrow">About Guruji <span lang="mr">· परिचय</span></p>
-          <h2 id="about-title" class="h2">The family priest Pune households call first</h2>
-          <p class="lead">For over twenty-five years, Ramakant Guruji has been the priest many Pune families call first — for a new home, a newborn’s naming, a Ganpati at home, or a parent’s annual shraddha.</p>
-          <p>He learned the rituals at his father’s side, then through formal study at a Ved Pathshala in Pune, and performs every ceremony with full traditional accuracy in the Deshastha, Marathi Bhatji tradition. What families remember most, though, is how he explains: before each step he tells you, in plain Marathi, Hindi or English, what the mantra means and why it is done. Young couples doing their very first puja and elders who know every verse both leave feeling at ease.</p>
+          <p class="eyebrow" data-i18n="about.eyebrow"></p>
+          <h2 id="about-title" class="h2" data-i18n="about.title"></h2>
+          <p class="lead" data-i18n="about.lead"></p>
+          <p data-i18n="about.body"></p>
           <dl class="facts-grid">
-            <div><dt>Tradition</dt><dd>Deshastha Brahmin, Marathi Bhatji</dd></div>
-            <div><dt>Training</dt><dd>Under his father, and at a Pune Ved Pathshala</dd></div>
-            <div><dt>Languages</dt><dd>Marathi, Hindi, English</dd></div>
-            <div><dt>Serves</dt><dd>Pune &amp; Pimpri-Chinchwad</dd></div>
+            <div><dt data-i18n="fact.tradition"></dt><dd data-i18n="fact.traditionV"></dd></div>
+            <div><dt data-i18n="fact.training"></dt><dd data-i18n="fact.trainingV"></dd></div>
+            <div><dt data-i18n="fact.langs"></dt><dd data-i18n="fact.langsV"></dd></div>
+            <div><dt data-i18n="fact.serves"></dt><dd data-i18n="fact.servesV"></dd></div>
           </dl>
         </div>
       </div>
@@ -110,28 +120,65 @@
     <section class="section ceremonies" id="ceremonies" aria-labelledby="cer-title">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">Ceremonies <span lang="mr">· विधी</span></p>
-          <h2 id="cer-title" class="h2">Choose a ceremony to see what’s involved</h2>
-          <p class="section-sub">Every ceremony shows its duration, dakshina, what Guruji brings and what your family arranges — so you know exactly what you’re booking.</p>
+          <p class="eyebrow" data-i18n="cer.eyebrow"></p>
+          <h2 id="cer-title" class="h2" data-i18n="cer.title"></h2>
+          <p class="section-sub" data-i18n="cer.sub"></p>
         </div>
 
         <div class="occasions" role="group" aria-labelledby="occ-label">
-          <p class="occ-label" id="occ-label">What’s the occasion?</p>
+          <p class="occ-label" id="occ-label" data-i18n="occ.label"></p>
           <div class="chips" id="occasion-chips"></div>
         </div>
         <p class="occ-status" id="occ-status" aria-live="polite"></p>
 
         <ul class="ritual-grid" id="ritual-grid"></ul>
+        <div class="show-all-wrap"><button class="btn btn-ghost" type="button" id="show-all" hidden></button></div>
 
         <div class="how">
-          <h3 class="how-title">How booking works</h3>
+          <h3 class="how-title" data-i18n="how.title"></h3>
           <ol class="how-steps">
-            <li><span class="how-n">1</span><div><strong>Choose a ceremony</strong><p>See the details, dakshina and preparation.</p></div></li>
-            <li><span class="how-n">2</span><div><strong>Pick a date &amp; time</strong><p>Or ask Guruji to suggest the muhurat.</p></div></li>
-            <li><span class="how-n">3</span><div><strong>Guruji calls to confirm</strong><p>Within 2 hours, with a samagri list on WhatsApp.</p></div></li>
-            <li><span class="how-n">4</span><div><strong>Pay after the ceremony</strong><p>No advance. UPI or cash.</p></div></li>
+            <li><span class="how-n">1</span><div><strong data-i18n="how.1t"></strong><p data-i18n="how.1d"></p></div></li>
+            <li><span class="how-n">2</span><div><strong data-i18n="how.2t"></strong><p data-i18n="how.2d"></p></div></li>
+            <li><span class="how-n">3</span><div><strong data-i18n="how.3t"></strong><p data-i18n="how.3d"></p></div></li>
+            <li><span class="how-n">4</span><div><strong data-i18n="how.4t"></strong><p data-i18n="how.4d"></p></div></li>
           </ol>
         </div>
+      </div>
+    </section>
+
+    <!-- Online puja -->
+    <section class="section online" id="online" aria-labelledby="online-title">
+      <div class="container online-grid">
+        <div>
+          <p class="eyebrow" data-i18n="online.eyebrow"></p>
+          <h2 id="online-title" class="h2" data-i18n="online.title"></h2>
+          <p class="section-sub" data-i18n="online.sub"></p>
+          <h3 class="how-title" data-i18n="online.stepsTitle"></h3>
+          <ol class="online-steps">
+            <li><strong data-i18n="online.1t"></strong><span data-i18n="online.1d"></span></li>
+            <li><strong data-i18n="online.2t"></strong><span data-i18n="online.2d"></span></li>
+            <li><strong data-i18n="online.3t"></strong><span data-i18n="online.3d"></span></li>
+            <li><strong data-i18n="online.4t"></strong><span data-i18n="online.4d"></span></li>
+            <li><strong data-i18n="online.5t"></strong><span data-i18n="online.5d"></span></li>
+          </ol>
+        </div>
+        <aside class="online-card">
+          <div class="online-screen" aria-hidden="true">
+            <div class="online-screen-main" data-art="kalash"></div>
+            <div class="online-tiles"><span></span><span></span><span></span></div>
+            <span class="online-live"><span class="dot-live"></span>LIVE · IST</span>
+          </div>
+          <h3 class="h3" data-i18n="online.availTitle"></h3>
+          <ul class="online-avail" id="online-avail"></ul>
+          <p class="muted small" data-i18n="online.homeOnlyNote"></p>
+          <h3 class="h3" data-i18n="online.needTitle"></h3>
+          <ul class="bullets">
+            <li data-i18n="online.need1"></li>
+            <li data-i18n="online.need2"></li>
+            <li data-i18n="online.need3"></li>
+          </ul>
+          <button class="btn btn-primary online-cta" type="button" data-book-online data-i18n="online.cta"></button>
+        </aside>
       </div>
     </section>
 
@@ -140,10 +187,10 @@
       <div class="container">
         <div class="section-head section-head-row">
           <div>
-            <p class="eyebrow">Recent ceremonies</p>
-            <h2 id="gal-title" class="h2">From homes across Pune</h2>
+            <p class="eyebrow" data-i18n="gal.eyebrow"></p>
+            <h2 id="gal-title" class="h2" data-i18n="gal.title"></h2>
           </div>
-          <p class="section-sub">A few moments from the last few months. Photos are shared only with each family’s permission.</p>
+          <p class="section-sub" data-i18n="gal.sub"></p>
         </div>
         <ul class="gallery-grid" id="gallery-grid"></ul>
       </div>
@@ -153,39 +200,21 @@
     <section class="section reviews" id="reviews" aria-labelledby="rev-title">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow eyebrow-light">In families’ words</p>
-          <h2 id="rev-title" class="h2">“He explained every step.”</h2>
+          <p class="eyebrow eyebrow-light" data-i18n="rev.eyebrow"></p>
+          <h2 id="rev-title" class="h2" data-i18n="rev.title"></h2>
         </div>
         <div class="review-grid">
           <figure class="review">
-            <blockquote>
-              <p>We had just got the keys to our flat in Wakad and honestly didn’t know where to start — neither of our parents could travel from Nagpur. Guruji sent us the samagri list on WhatsApp the same evening and told us exactly what to buy and what he would bring.</p>
-              <p>During the puja he paused at every step to tell us what we were doing and why. My in-laws watched on a video call and kept saying it was done “exactly the way it should be.”</p>
-            </blockquote>
-            <figcaption>
-              <span class="rv-name">Sneha &amp; Aditya D.</span>
-              <span class="rv-meta">First Griha Pravesh · Wakad · Feb 2026</span>
-            </figcaption>
+            <blockquote data-i18n="rev.1"></blockquote>
+            <figcaption><span class="rv-name" data-i18n="rev.1n"></span><span class="rv-meta" data-i18n="rev.1m"></span></figcaption>
           </figure>
           <figure class="review">
-            <blockquote>
-              <p>Ramakant Guruji has done our Satyanarayan every Shravan since 2011, my father’s shraddha every year, and our grandson’s barsa last winter.</p>
-              <p>He remembers that my mother can’t sit on the floor for long and plans the puja around her chair. Even in Shravan, when he has four pujas in a day, he has never once rushed us.</p>
-            </blockquote>
-            <figcaption>
-              <span class="rv-name">Vasudha Joshi</span>
-              <span class="rv-meta">Family since 2011 · Kothrud</span>
-            </figcaption>
+            <blockquote data-i18n="rev.2"></blockquote>
+            <figcaption><span class="rv-name" data-i18n="rev.2n"></span><span class="rv-meta" data-i18n="rev.2m"></span></figcaption>
           </figure>
           <figure class="review">
-            <blockquote>
-              <p>I found Guruji through a search after another priest didn’t turn up on the day. I was nervous booking a stranger for our office Vastu Shanti.</p>
-              <p>He called back within the hour, asked for a photo of the floor plan, and told me the full dakshina upfront — no surprises on the day. He arrived thirty minutes early. He’s now our office’s regular.</p>
-            </blockquote>
-            <figcaption>
-              <span class="rv-name">Rahul M.</span>
-              <span class="rv-meta">Office Vastu Shanti · Hinjewadi · 2025</span>
-            </figcaption>
+            <blockquote data-i18n="rev.3"></blockquote>
+            <figcaption><span class="rv-name" data-i18n="rev.3n"></span><span class="rv-meta" data-i18n="rev.3m"></span></figcaption>
           </figure>
         </div>
       </div>
@@ -195,18 +224,18 @@
     <section class="section area" id="area" aria-labelledby="area-title">
       <div class="container area-grid">
         <div>
-          <p class="eyebrow">Service area</p>
-          <h2 id="area-title" class="h2">Across Pune &amp; Pimpri-Chinchwad</h2>
-          <p class="section-sub">Guruji is based in Kothrud and travels to your home or office. No travel charge within Pune and PCMC; for Lonavala, Talegaon or Saswad, please ask.</p>
+          <p class="eyebrow" data-i18n="area.eyebrow"></p>
+          <h2 id="area-title" class="h2" data-i18n="area.title"></h2>
+          <p class="section-sub" data-i18n="area.sub"></p>
           <div class="area-cols" id="area-cols"></div>
         </div>
         <aside class="lang-card" aria-labelledby="lang-title">
-          <h3 id="lang-title" class="h3">Languages</h3>
-          <p class="muted">Mantras are chanted in Sanskrit, as tradition requires. Explanations are in whichever language your family is most comfortable with.</p>
+          <h3 id="lang-title" class="h3" data-i18n="lang.title"></h3>
+          <p class="muted" data-i18n="lang.body"></p>
           <ul class="lang-list">
-            <li><span class="lang-glyph" lang="mr" aria-hidden="true">म</span><div><strong>Marathi <span lang="mr">· मराठी</span></strong><span>Guruji’s first language</span></div></li>
-            <li><span class="lang-glyph" lang="hi" aria-hidden="true">हि</span><div><strong>Hindi <span lang="hi">· हिंदी</span></strong><span>Fluent</span></div></li>
-            <li><span class="lang-glyph" aria-hidden="true">En</span><div><strong>English</strong><span>Comfortable explaining every step</span></div></li>
+            <li><span class="lang-glyph" lang="mr" aria-hidden="true">म</span><div><strong data-i18n="lang.mr"></strong><span data-i18n="lang.mrD"></span></div></li>
+            <li><span class="lang-glyph" lang="hi" aria-hidden="true">हि</span><div><strong data-i18n="lang.hi"></strong><span data-i18n="lang.hiD"></span></div></li>
+            <li><span class="lang-glyph" aria-hidden="true">En</span><div><strong data-i18n="lang.en"></strong><span data-i18n="lang.enD"></span></div></li>
           </ul>
         </aside>
       </div>
@@ -216,31 +245,16 @@
     <section class="section faq" id="faq" aria-labelledby="faq-title">
       <div class="container faq-grid">
         <div>
-          <p class="eyebrow">Good to know</p>
-          <h2 id="faq-title" class="h2">Questions families often ask</h2>
-          <p class="section-sub">Anything else? <a class="js-wa" href="#" data-wa-text="Namaskar Guruji, I have a question.">Message Guruji on WhatsApp</a>.</p>
+          <p class="eyebrow" data-i18n="faq.eyebrow"></p>
+          <h2 id="faq-title" class="h2" data-i18n="faq.title"></h2>
+          <p class="section-sub" data-i18n="faq.sub"></p>
         </div>
         <div class="faq-list">
-          <details>
-            <summary>What does “samagri included” mean?</summary>
-            <p>Guruji brings all the puja materials — haldi-kunku, supari, sacred threads, havan samagri and so on. Your family only arranges fresh items like fruit, flowers, milk and prasad. Each ceremony lists exactly what’s on your side, and you’ll get the list on WhatsApp after booking.</p>
-          </details>
-          <details>
-            <summary>When and how do we pay the dakshina?</summary>
-            <p>After the ceremony, by UPI or cash. There is no advance for bookings in Pune and PCMC. The final amount within the range depends on the scale of the ceremony and is confirmed on the phone call — before the day, not on it.</p>
-          </details>
-          <details>
-            <summary>We don’t know our gotra or the right muhurat. Is that a problem?</summary>
-            <p>Not at all — this is very common. Guruji will help find the muhurat for your date, and uses a traditional alternative sankalp when the gotra isn’t known.</p>
-          </details>
-          <details>
-            <summary>Can relatives join by video call?</summary>
-            <p>Yes. Many families have grandparents or siblings watching from elsewhere. Guruji will make sure they can hear the explanations too.</p>
-          </details>
-          <details>
-            <summary>What if we need to change the date?</summary>
-            <p>Call or WhatsApp at least 48 hours before, and Guruji will move it to the next date that suits you. There’s no charge to reschedule.</p>
-          </details>
+          <details><summary data-i18n="faq.q1"></summary><p data-i18n="faq.a1"></p></details>
+          <details><summary data-i18n="faq.q2"></summary><p data-i18n="faq.a2"></p></details>
+          <details><summary data-i18n="faq.q4"></summary><p data-i18n="faq.a4"></p></details>
+          <details><summary data-i18n="faq.q3"></summary><p data-i18n="faq.a3"></p></details>
+          <details><summary data-i18n="faq.q5"></summary><p data-i18n="faq.a5"></p></details>
         </div>
       </div>
     </section>
@@ -250,24 +264,24 @@
       <div class="container">
         <div class="contact-card">
           <div class="contact-copy">
-            <p class="eyebrow">Contact <span lang="mr">· संपर्क</span></p>
-            <h2 id="contact-title" class="h2">Speak to Guruji directly</h2>
-            <p>WhatsApp is the quickest way to reach him. Calls are best between <strong>7–9 am</strong> and <strong>6–9 pm</strong>; during a ceremony, he’ll call you back.</p>
+            <p class="eyebrow" data-i18n="contact.eyebrow"></p>
+            <h2 id="contact-title" class="h2" data-i18n="contact.title"></h2>
+            <p data-i18n="contact.body"></p>
             <div class="contact-actions">
-              <a class="btn btn-wa btn-lg js-wa" href="#" data-wa-text="Namaskar Guruji, I would like to ask about a puja.">
+              <a class="btn btn-wa btn-lg js-wa" href="#" data-wa-key="wa.general">
                 <svg class="i" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z" fill="currentColor"/></svg>
-                WhatsApp Guruji
+                <span data-i18n="cta.wa"></span>
               </a>
               <a class="btn btn-ghost btn-lg js-tel" href="#">
                 <svg class="i" aria-hidden="true" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1l-2.2 2.23Z" fill="currentColor"/></svg>
-                <span class="js-phone-display">Call</span>
+                <span class="js-phone-display"></span>
               </a>
             </div>
           </div>
           <dl class="contact-meta">
-            <div><dt>Based in</dt><dd>Kothrud, Pune</dd></div>
-            <div><dt>Replies</dt><dd>Usually within 2 hours</dd></div>
-            <div><dt>Booking notice</dt><dd>At least 1 day; festivals 2–3 months</dd></div>
+            <div><dt data-i18n="contact.based"></dt><dd data-i18n="contact.basedV"></dd></div>
+            <div><dt data-i18n="contact.replies"></dt><dd data-i18n="contact.repliesV"></dd></div>
+            <div><dt data-i18n="contact.notice"></dt><dd data-i18n="contact.noticeV"></dd></div>
           </dl>
         </div>
       </div>
@@ -277,38 +291,40 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <p class="footer-brand">Ramakant Guruji</p>
-        <p class="footer-mr" lang="mr">रमाकांत कुलकर्णी · वैदिक पुरोहित, पुणे</p>
-        <p class="muted">Vedic rituals for homes and offices across Pune &amp; Pimpri-Chinchwad since 2001.</p>
+        <p class="footer-brand" data-i18n="brand.name"></p>
+        <p class="footer-mr" lang="mr" data-i18n="footer.sub"></p>
+        <p class="muted" data-i18n="footer.blurb"></p>
       </div>
-      <nav aria-label="Footer">
+      <nav data-i18n-aria="footer.nav">
         <ul class="footer-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#ceremonies">Ceremonies</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#reviews">Reviews</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" data-i18n="nav.about"></a></li>
+          <li><a href="#ceremonies" data-i18n="nav.ceremonies"></a></li>
+          <li><a href="#online" data-i18n="nav.online"></a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery"></a></li>
+          <li><a href="#reviews" data-i18n="nav.reviews"></a></li>
+          <li><a href="#area" data-i18n="nav.area"></a></li>
+          <li><a href="#faq" data-i18n="nav.faq"></a></li>
+          <li><a href="#contact" data-i18n="nav.contact"></a></li>
         </ul>
       </nav>
       <div class="footer-contact">
-        <a class="js-tel" href="#"><span class="js-phone-display">Phone</span></a>
-        <a class="js-wa" href="#" data-wa-text="Namaskar Guruji">WhatsApp</a>
+        <a class="js-tel" href="#"><span class="js-phone-display"></span></a>
+        <a class="js-wa" href="#" data-wa-key="wa.hello" data-i18n="cta.waShort"></a>
       </div>
     </div>
     <div class="container footer-base">
       <p>© <span id="year">2026</span> Ramakant Kulkarni</p>
-      <p>Personal booking site by <strong>Gurujee</strong></p>
+      <p data-i18n="footer.by"></p>
     </div>
   </footer>
 
   <!-- Mobile quick actions -->
-  <div class="quickbar" id="quickbar" aria-label="Quick actions">
-    <a class="btn btn-ghost js-wa" href="#" data-wa-text="Namaskar Guruji, I would like to ask about a puja.">
+  <div class="quickbar" id="quickbar" data-i18n-aria="quick.aria">
+    <a class="btn btn-ghost js-wa" href="#" data-wa-key="wa.general">
       <svg class="i" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z" fill="currentColor"/></svg>
-      WhatsApp
+      <span data-i18n="cta.waShort"></span>
     </a>
-    <button class="btn btn-primary" type="button" data-book>Book a ceremony</button>
+    <button class="btn btn-primary" type="button" data-book data-i18n="cta.book"></button>
   </div>
 
   <!-- Booking flow -->
@@ -316,23 +332,24 @@
     <div class="bk-shell">
       <header class="bk-head">
         <div class="bk-head-row">
-          <p class="bk-title" id="bk-title">Book with Ramakant Guruji</p>
-          <button class="icon-btn" type="button" data-close aria-label="Close booking">
+          <p class="bk-title" id="bk-title" data-i18n="bk.title"></p>
+          <button class="icon-btn" type="button" data-close data-i18n-aria="bk.close">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </button>
         </div>
-        <ol class="bk-steps" id="bk-steps" aria-label="Booking progress"></ol>
+        <ol class="bk-steps" id="bk-steps" data-i18n-aria="bk.progress"></ol>
       </header>
       <p class="bk-summary" id="bk-summary" hidden></p>
       <div class="bk-body" id="bk-body"></div>
       <footer class="bk-foot">
-        <button class="btn btn-text" type="button" id="bk-back">Back</button>
+        <button class="btn btn-text" type="button" id="bk-back"></button>
         <p class="bk-est" id="bk-est" aria-live="polite"></p>
-        <button class="btn btn-primary" type="button" id="bk-next">Continue</button>
+        <button class="btn btn-primary" type="button" id="bk-next"></button>
       </footer>
     </div>
   </dialog>
 
+  <script src="js/i18n.js"></script>
   <script src="js/data.js"></script>
   <script src="js/art.js"></script>
   <script src="js/app.js"></script>
