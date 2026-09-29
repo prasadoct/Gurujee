@@ -505,7 +505,12 @@ window.SITE = (() => {
         'झेंडूच्या तोरणांनी सजवलेल्या फ्लॅटमध्ये विटांच्या होमकुंडात पुरोहित तूप अर्पण करत आहेत; तरुण जोडपे हात जोडून बसले आहे आणि ज्येष्ठ पाहत आहेत.')
     },
     { motif: 'modak', tone: 'haldi', title: a('Ganeshotsav, day one', 'गणेशोत्सव, पहिला दिवस'), meta: a('Sadashiv Peth · Sep 2026', 'सदाशिव पेठ · सप्टेंबर 2026') },
-    { motif: 'rangoli', tone: 'sage', span: 'wide', title: a('Vastu Shanti, new office', 'वास्तुशांती, नवीन ऑफिस'), meta: a('Hinjewadi · Jun 2026', 'हिंजवडी · जून 2026') },
+    {
+      motif: 'rangoli', tone: 'sage', span: 'wide', title: a('Vastu Shanti, new office', 'वास्तुशांती, नवीन ऑफिस'), meta: a('Hinjewadi · Jun 2026', 'हिंजवडी · जून 2026'),
+      img: 'assets/gallery/vastu-shanti-office.jpg', representative: true,
+      alt: a('In a modern open-plan office decorated with marigold garlands, a priest performs a puja with a small havan while the owner’s family sits with folded hands and staff look on.',
+        'झेंडूच्या माळांनी सजवलेल्या आधुनिक ऑफिसमध्ये पुरोहित छोट्या होमासह पूजा करत आहेत; मालकांचे कुटुंब हात जोडून बसले आहे आणि कर्मचारी पाहत आहेत.')
+    },
     { motif: 'palna', tone: 'blush', title: a('Naamkaran for baby Ira', 'बाळ इराचे नामकरण'), meta: a('Aundh · May 2026', 'औंध · मे 2026') },
     { motif: 'diya', tone: 'green', title: a('Online aarti with a family in Dubai', 'दुबईतील कुटुंबासोबत ऑनलाइन आरती'), meta: a('Video call · Apr 2026', 'व्हिडिओ कॉल · एप्रिल 2026') }
   ];
