@@ -522,7 +522,12 @@ window.SITE = (() => {
       alt: a('A baby girl lies in a decorated palna under a golden canopy; her mother holds a plate with the name “इरा”, her grandmother waves an aarti lamp and her father sits with folded hands.',
         'सोनेरी छत असलेल्या सजवलेल्या पाळण्यात बाळ झोपले आहे; आई “इरा” नाव लिहिलेले ताट धरून आहे, आजी आरती ओवाळत आहे आणि वडील हात जोडून बसले आहेत.')
     },
-    { motif: 'diya', tone: 'green', title: a('Online aarti with a family in Dubai', 'दुबईतील कुटुंबासोबत ऑनलाइन आरती'), meta: a('Video call · Apr 2026', 'व्हिडिओ कॉल · एप्रिल 2026') }
+    {
+      motif: 'diya', tone: 'green', title: a('Online aarti with a family in Dubai', 'दुबईतील कुटुंबासोबत ऑनलाइन आरती'), meta: a('Video call · Apr 2026', 'व्हिडिओ कॉल · एप्रिल 2026'),
+      img: 'assets/gallery/online-aarti.jpg', representative: true,
+      alt: a('A family sits with folded hands around a puja set-up at home while the priest leads the aarti from a laptop screen on the low table.',
+        'घरी मांडलेल्या पूजेभोवती कुटुंब हात जोडून बसले आहे; समोरच्या चौरंगावरील लॅपटॉपच्या स्क्रीनवरून पुरोहित आरती सांगत आहेत.')
+    }
   ];
 
   return { CONFIG, RITUALS, OCCASIONS, SLOTS, GANESH_DAYS, PLATFORMS, COUNTRY_CODES, AREAS, GALLERY };
