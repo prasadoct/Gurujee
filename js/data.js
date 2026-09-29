@@ -504,7 +504,12 @@ window.SITE = (() => {
       alt: a('A priest offers ghee into a brick havan kund while a young couple sits with folded hands and elders look on, in a flat decorated with marigold torans.',
         'झेंडूच्या तोरणांनी सजवलेल्या फ्लॅटमध्ये विटांच्या होमकुंडात पुरोहित तूप अर्पण करत आहेत; तरुण जोडपे हात जोडून बसले आहे आणि ज्येष्ठ पाहत आहेत.')
     },
-    { motif: 'modak', tone: 'haldi', title: a('Ganeshotsav, day one', 'गणेशोत्सव, पहिला दिवस'), meta: a('Sadashiv Peth · Sep 2026', 'सदाशिव पेठ · सप्टेंबर 2026') },
+    {
+      motif: 'modak', tone: 'haldi', title: a('Ganeshotsav, day one', 'गणेशोत्सव, पहिला दिवस'), meta: a('Sadashiv Peth · Sep 2026', 'सदाशिव पेठ · सप्टेंबर 2026'),
+      img: 'assets/gallery/ganeshotsav.jpg', representative: true,
+      alt: a('A priest in a saffron pheta performs aarti before a Ganpati murti in a carved, garlanded makhar, while a young man sits with folded hands and family watch; plates of modak, fruit and flowers are laid out around a rangoli.',
+        'कोरीव, फुलांनी सजवलेल्या मखरातील गणपतीच्या मूर्तीसमोर केशरी फेटा घातलेले पुरोहित आरती करत आहेत; तरुण हात जोडून बसला आहे आणि कुटुंब पाहत आहे; रांगोळीभोवती मोदक, फळे व फुलांची ताटे.')
+    },
     {
       motif: 'rangoli', tone: 'sage', span: 'wide', title: a('Vastu Shanti, new office', 'वास्तुशांती, नवीन ऑफिस'), meta: a('Hinjewadi · Jun 2026', 'हिंजवडी · जून 2026'),
       img: 'assets/gallery/vastu-shanti-office.jpg', representative: true,
