@@ -516,7 +516,12 @@ window.SITE = (() => {
       alt: a('In a modern open-plan office decorated with marigold garlands, a priest performs a puja with a small havan while the owner’s family sits with folded hands and staff look on.',
         'झेंडूच्या माळांनी सजवलेल्या आधुनिक ऑफिसमध्ये पुरोहित छोट्या होमासह पूजा करत आहेत; मालकांचे कुटुंब हात जोडून बसले आहे आणि कर्मचारी पाहत आहेत.')
     },
-    { motif: 'palna', tone: 'blush', title: a('Naamkaran for baby Ira', 'बाळ इराचे नामकरण'), meta: a('Aundh · May 2026', 'औंध · मे 2026') },
+    {
+      motif: 'palna', tone: 'blush', title: a('Naamkaran for baby Ira', 'बाळ इराचे नामकरण'), meta: a('Aundh · May 2026', 'औंध · मे 2026'),
+      img: 'assets/gallery/naamkaran.jpg', representative: true,
+      alt: a('A baby girl lies in a decorated palna under a golden canopy; her mother holds a plate with the name “इरा”, her grandmother waves an aarti lamp and her father sits with folded hands.',
+        'सोनेरी छत असलेल्या सजवलेल्या पाळण्यात बाळ झोपले आहे; आई “इरा” नाव लिहिलेले ताट धरून आहे, आजी आरती ओवाळत आहे आणि वडील हात जोडून बसले आहेत.')
+    },
     { motif: 'diya', tone: 'green', title: a('Online aarti with a family in Dubai', 'दुबईतील कुटुंबासोबत ऑनलाइन आरती'), meta: a('Video call · Apr 2026', 'व्हिडिओ कॉल · एप्रिल 2026') }
   ];
 
